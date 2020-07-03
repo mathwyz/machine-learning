@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.6.16)  2 JUL 2020 10:13
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.6.16)  2 JUL 2020 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -951,10 +951,9 @@ Overfull \hbox (57.03pt too wide) in paragraph at lines 104--5
 []\TU/lmr/m/n/10 mygray0.9
  []
 
-(./main.aux
-No file scr/chapter1/微积分.aux.
-No file scr/chapter1/线性代数.aux.
-)
+(./main.aux (./scr/chapter1/微积分.aux) (./scr/chapter1/线性代数.aux)
+(./scr/chapter1/概率论.tex.aux) (./scr/chapter1/数理统计.tex.aux)
+(./scr/chapter1/信息论.tex.aux) (./scr/chapter1/随机过程.tex.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -968,7 +967,8 @@ LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
 .
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 9.
@@ -1115,6 +1115,10 @@ Missing character: There is no 分 in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no 的 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 展 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 开 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 线 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 性 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 代 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 数 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 线 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 性 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 空 in font [lmroman10-regular]:mapping=tex-text;!
@@ -1612,18 +1616,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
 (./scr/chapter1/信息论.tex.aux) (./scr/chapter1/随机过程.tex.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: A6E2C53080DC24F88C1BDCBCFD8ECA83;1217
-(rerunfilecheck)             After:  DC5EDA55EDF58A27BDD79FF4D32A847B;710.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: DC5EDA55EDF58A27BDD79FF4D32A847B;710.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  )
 (\end occurred inside a group at level 1)
@@ -1631,10 +1625,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
 ### semi simple group (level 1) entered at line 11 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23352 strings out of 481804
- 411985 string characters out of 5937876
- 665698 words of memory out of 5000000
- 39729 multiletter control sequences out of 15000+600000
+ 23371 strings out of 481804
+ 412419 string characters out of 5937876
+ 668415 words of memory out of 5000000
+ 39736 multiletter control sequences out of 15000+600000
  538899 words of font info for 61 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
  68i,6n,64p,963b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
