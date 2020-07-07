@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.6.16)  2 JUL 2020 10:14
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.6.16)  7 JUL 2020 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -887,7 +887,8 @@ Type  H <return>  for immediate help.
                                                   
 l.40 \newtheorem{lemmma}[thm]{\hskip 2em 引理}
                                             
-? 
+? S
+OK, entering \scrollmode...
 
 ! LaTeX Error: No counter 'thm' defined.
 
@@ -897,8 +898,10 @@ Type  H <return>  for immediate help.
                                                   
 l.41 \newtheorem{proposition}[thm]{\hskip 2em 命题}
                                                  
-? S
-OK, entering \scrollmode...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 \c@defination=\count324
 \c@example=\count325
 
